@@ -57,11 +57,11 @@ export const PlatformSection: React.FC = () => {
   ];
 
   return (
-    <section id="platform" className="py-20 lg:py-28 bg-surface-warm">
+    <section id="platform" className="py-12 lg:py-16 bg-surface-warm">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mb-10">
           <div className="inline-flex items-center space-x-2 text-teal-700 text-xs font-bold tracking-wider uppercase mb-2">
             <span className="w-1.5 h-1.5 rounded-full bg-teal-500" />
             <span>Planned Architecture & Platform</span>
@@ -69,59 +69,59 @@ export const PlatformSection: React.FC = () => {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-navy-950 tracking-tight">
             An explainable, privacy-preserving early-warning architecture.
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-navy-600 leading-relaxed">
+          <p className="mt-3 text-base text-navy-600 leading-relaxed">
             ConductLens is designed to identify sustained divergence across operational HR records without intrusive employee surveillance or automated disciplinary actions.
           </p>
         </div>
 
         {/* Three Core Components */}
-        <div className="mb-20">
-          <h3 className="text-xs uppercase tracking-wider font-bold text-navy-500 mb-6">
+        <div className="mb-12">
+          <h3 className="text-xs uppercase tracking-wider font-bold text-navy-500 mb-4">
             Three Core Platform Components
           </h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             
             {/* Component A */}
-            <div className="bg-white rounded-2xl p-7 border border-navy-200/80 shadow-card flex flex-col justify-between hover:border-teal-500/40 transition-colors">
+            <div className="bg-white rounded-2xl p-6 sm:p-7 border border-navy-200/80 shadow-card flex flex-col justify-between hover:border-teal-500/40 transition-colors">
               <div>
                 <div className="w-10 h-10 rounded-xl bg-teal-50 border border-teal-200 flex items-center justify-center text-teal-700 mb-4 font-bold text-sm">
                   A
                 </div>
-                <h4 className="text-lg font-bold text-navy-950 mb-2.5">
+                <h4 className="text-lg font-bold text-navy-950 mb-2">
                   Signal Ingestion Layer
                 </h4>
                 <p className="text-sm text-navy-600 leading-relaxed">
                   Collects a defined allow-list of existing operational HR signals through planned connections and file imports, without requiring employees to make new reports.
                 </p>
               </div>
-              <div className="mt-6 pt-4 border-t border-navy-100 flex items-center text-xs text-navy-500 font-medium">
+              <div className="mt-5 pt-4 border-t border-navy-100 flex items-center text-xs text-navy-500 font-medium">
                 <Database className="w-3.5 h-3.5 mr-1.5 text-teal-600" />
                 <span>Zero employee polling required</span>
               </div>
             </div>
 
             {/* Component B */}
-            <div className="bg-white rounded-2xl p-7 border border-navy-200/80 shadow-card flex flex-col justify-between hover:border-teal-500/40 transition-colors">
+            <div className="bg-white rounded-2xl p-6 sm:p-7 border border-navy-200/80 shadow-card flex flex-col justify-between hover:border-teal-500/40 transition-colors">
               <div>
                 <div className="w-10 h-10 rounded-xl bg-teal-50 border border-teal-200 flex items-center justify-center text-teal-700 mb-4 font-bold text-sm">
                   B
                 </div>
-                <h4 className="text-lg font-bold text-navy-950 mb-2.5">
+                <h4 className="text-lg font-bold text-navy-950 mb-2">
                   Supervisory-Risk Scoring Engine
                 </h4>
                 <p className="text-sm text-navy-600 leading-relaxed">
                   Compares structurally similar teams, combines multiple signals, checks persistence and provides explainable indicators with confidence and data-quality information.
                 </p>
               </div>
-              <div className="mt-6 pt-4 border-t border-navy-100 flex items-center text-xs text-navy-500 font-medium">
+              <div className="mt-5 pt-4 border-t border-navy-100 flex items-center text-xs text-navy-500 font-medium">
                 <Cpu className="w-3.5 h-3.5 mr-1.5 text-teal-600" />
                 <span>Persistent peer-relative analysis</span>
               </div>
             </div>
 
             {/* Component C */}
-            <div className="bg-white rounded-2xl p-7 border-2 border-teal-500/60 shadow-card flex flex-col justify-between relative overflow-hidden">
+            <div className="bg-white rounded-2xl p-6 sm:p-7 border-2 border-teal-500/60 shadow-card flex flex-col justify-between relative overflow-hidden">
               <div className="absolute top-0 right-0 bg-teal-600 text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-bl-lg">
                 Optional add-on · +25% of base subscription
               </div>
@@ -129,14 +129,14 @@ export const PlatformSection: React.FC = () => {
                 <div className="w-10 h-10 rounded-xl bg-teal-100 border border-teal-300 flex items-center justify-center text-teal-800 mb-4 font-bold text-sm mt-1">
                   C
                 </div>
-                <h4 className="text-lg font-bold text-navy-950 mb-2.5">
+                <h4 className="text-lg font-bold text-navy-950 mb-2">
                   Structured HR Inquiry Workflow
                 </h4>
                 <p className="text-sm text-navy-600 leading-relaxed">
                   An optional paid add-on supporting authorised, proportionate human review, assigned tasks, recorded decisions and exportable case files.
                 </p>
               </div>
-              <div className="mt-6 pt-4 border-t border-navy-100 flex items-center justify-between text-xs text-teal-800 font-semibold">
+              <div className="mt-5 pt-4 border-t border-navy-100 flex items-center justify-between text-xs text-teal-800 font-semibold">
                 <span className="flex items-center">
                   <FileText className="w-3.5 h-3.5 mr-1.5 text-teal-600" />
                   <span>Acas-aligned documentation</span>
@@ -149,8 +149,8 @@ export const PlatformSection: React.FC = () => {
         </div>
 
         {/* SVG Diagram: Controlled Identity Gate & Tokenisation Architecture */}
-        <div className="mb-20 bg-white rounded-2xl p-6 sm:p-8 border border-navy-200/90 shadow-card">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-navy-100 gap-2 mb-6">
+        <div className="mb-12 bg-white rounded-2xl p-6 sm:p-7 border border-navy-200/90 shadow-card">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-navy-100 gap-2 mb-5">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-teal-700">
                 Controlled Identity Gate Architecture
@@ -224,13 +224,13 @@ export const PlatformSection: React.FC = () => {
         </div>
 
         {/* Eight Planned MVP Modules */}
-        <div className="mb-20">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-2">
+        <div className="mb-12">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-2">
             <div>
               <h3 className="text-xs uppercase tracking-wider font-bold text-navy-500">
                 MVP Specifications
               </h3>
-              <h4 className="text-xl sm:text-2xl font-bold text-navy-950 mt-1">
+              <h4 className="text-xl sm:text-2xl font-bold text-navy-950 mt-0.5">
                 Eight Planned MVP Modules
               </h4>
             </div>
@@ -239,7 +239,7 @@ export const PlatformSection: React.FC = () => {
             </span>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
             {mvpModules.map((mod) => (
               <div 
                 key={mod.num} 
@@ -256,7 +256,7 @@ export const PlatformSection: React.FC = () => {
                       </span>
                     )}
                   </div>
-                  <h5 className="font-bold text-navy-900 text-sm mb-2">
+                  <h5 className="font-bold text-navy-900 text-sm mb-1.5">
                     {mod.name}
                   </h5>
                   <p className="text-xs text-navy-600 leading-relaxed">
@@ -269,8 +269,8 @@ export const PlatformSection: React.FC = () => {
         </div>
 
         {/* Data Inputs Allow-list vs Excluded Data Matrix */}
-        <div className="mb-20 bg-white rounded-2xl p-7 lg:p-9 border border-navy-200 shadow-card">
-          <div className="max-w-2xl mb-8">
+        <div className="mb-12 bg-white rounded-2xl p-6 sm:p-8 border border-navy-200 shadow-card">
+          <div className="max-w-2xl mb-6">
             <span className="text-xs font-bold uppercase tracking-wider text-teal-700">
               Data Governance & Field Boundary
             </span>
@@ -282,15 +282,15 @@ export const PlatformSection: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             
             {/* Planned Data Inputs */}
             <div className="bg-emerald-50/50 rounded-xl p-5 sm:p-6 border border-emerald-200/80">
-              <div className="flex items-center space-x-2 text-emerald-900 font-bold text-base mb-4">
+              <div className="flex items-center space-x-2 text-emerald-900 font-bold text-base mb-3.5">
                 <Check className="w-5 h-5 text-emerald-600" />
                 <span>Planned Data Inputs (Allow-List Only)</span>
               </div>
-              <ul className="space-y-3 text-xs sm:text-sm text-navy-800">
+              <ul className="space-y-2.5 text-xs sm:text-sm text-navy-800">
                 <li className="flex items-start space-x-2.5">
                   <div className="w-1.5 h-1.5 rounded-full bg-emerald-600 mt-2 flex-shrink-0" />
                   <span><strong>Team structure and reporting lines</strong> — Organisational mapping and cluster hierarchy.</span>
@@ -316,11 +316,11 @@ export const PlatformSection: React.FC = () => {
 
             {/* Excluded Data */}
             <div className="bg-rose-50/40 rounded-xl p-5 sm:p-6 border border-rose-200/80">
-              <div className="flex items-center space-x-2 text-rose-950 font-bold text-base mb-4">
+              <div className="flex items-center space-x-2 text-rose-950 font-bold text-base mb-3.5">
                 <X className="w-5 h-5 text-rose-600" />
                 <span>Excluded Data (Strict Boundary)</span>
               </div>
-              <ul className="space-y-3 text-xs sm:text-sm text-navy-800">
+              <ul className="space-y-2.5 text-xs sm:text-sm text-navy-800">
                 <li className="flex items-start space-x-2.5">
                   <div className="w-1.5 h-1.5 rounded-full bg-rose-500 mt-2 flex-shrink-0" />
                   <span><strong>Emails and messages</strong> — No communication surveillance, Slack/Teams logging, or keystroke tracking.</span>
@@ -352,8 +352,8 @@ export const PlatformSection: React.FC = () => {
         </div>
 
         {/* User Roles & Human Governance */}
-        <div className="mb-20 bg-navy-900 text-white rounded-2xl p-7 sm:p-9 border border-navy-800 shadow-card">
-          <div className="max-w-2xl mb-8">
+        <div className="bg-navy-900 text-white rounded-2xl p-6 sm:p-8 border border-navy-800 shadow-card">
+          <div className="max-w-2xl mb-6">
             <span className="text-xs font-bold uppercase tracking-wider text-teal-400">
               Role-Based Governance
             </span>
@@ -365,7 +365,7 @@ export const PlatformSection: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-sm">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-sm">
             
             <div className="bg-navy-800/80 p-5 rounded-xl border border-navy-700">
               <div className="flex items-center space-x-2 text-teal-400 font-bold mb-2">
@@ -399,7 +399,7 @@ export const PlatformSection: React.FC = () => {
 
           </div>
 
-          <div className="mt-6 pt-5 border-t border-navy-800 flex items-center space-x-3 text-xs text-navy-300">
+          <div className="mt-5 pt-4 border-t border-navy-800 flex items-center space-x-3 text-xs text-navy-300">
             <Scale className="w-4 h-4 text-teal-400 flex-shrink-0" />
             <span>
               <strong>Core Guarantee:</strong> Findings and actions remain human decisions. No automated disciplinary sanctions are ever executed.
@@ -407,89 +407,9 @@ export const PlatformSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Planned Later Releases Area */}
-        <div className="bg-white rounded-2xl p-7 lg:p-9 border border-navy-200 shadow-card">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-navy-100 gap-2 mb-6">
-            <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-navy-500">
-                Roadmap Horizon
-              </span>
-              <h3 className="text-xl sm:text-2xl font-bold text-navy-950">
-                Planned Later Releases
-              </h3>
-            </div>
-            <span className="text-xs font-semibold text-navy-600 bg-navy-50 border border-navy-200 px-3 py-1 rounded-md self-start sm:self-auto">
-              Post-MVP Roadmap · Not in initial build
-            </span>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            
-            {/* Release 2 */}
-            <div className="bg-surface-warm p-6 rounded-xl border border-navy-100">
-              <div className="flex items-center justify-between mb-3">
-                <h4 className="font-bold text-navy-950 text-base">
-                  Release 2
-                </h4>
-                <span className="text-xs font-semibold text-teal-800 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">
-                  Months 7–18 of development
-                </span>
-              </div>
-              <ul className="space-y-2 text-xs sm:text-sm text-navy-700">
-                <li className="flex items-center space-x-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal-600" />
-                  <span>Sage HR, Personio and Breathe HR connectors</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal-600" />
-                  <span>Optional anonymous pulse checks</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal-600" />
-                  <span>Aggregated Board and Audit Committee reporting</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal-600" />
-                  <span>Optional manager self-reflection view</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal-600" />
-                  <span>Retaliation-risk monitoring</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal-600" />
-                  <span>Scoring refinement</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Release 3 */}
-            <div className="bg-surface-warm p-6 rounded-xl border border-navy-100">
-              <div className="flex items-center justify-between mb-3">
-                <h4 className="font-bold text-navy-950 text-base">
-                  Release 3
-                </h4>
-                <span className="text-xs font-semibold text-teal-800 bg-teal-50 px-2 py-0.5 rounded border border-teal-200">
-                  From Month 19
-                </span>
-              </div>
-              <ul className="space-y-2 text-xs sm:text-sm text-navy-700">
-                <li className="flex items-center space-x-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-teal-600" />
-                  <span>An optional bridge to existing anonymous reporting platforms</span>
-                </li>
-              </ul>
-              <div className="mt-8 p-3 rounded-lg bg-navy-50 border border-navy-200 text-xs text-navy-600 italic">
-                Later-release capabilities will be deployed iteratively based on customer pilot feedback.
-              </div>
-            </div>
-
-          </div>
-
-          {/* Design Commitments Note */}
-          <div className="mt-6 p-4 rounded-xl bg-teal-50/60 border border-teal-200 text-xs text-teal-950 leading-relaxed">
-            <span className="font-bold">Planned Design Commitments:</span> UK hosting, encryption, role-based access controls, and logged identity access are core planned design commitments. ConductLens does not claim achieved certification, regulator approval, Acas endorsement, or a granted patent.
-          </div>
+        {/* Planned Design Commitments Note */}
+        <div className="mt-6 p-4 rounded-xl bg-teal-50/70 border border-teal-200 text-xs text-teal-950 leading-relaxed">
+          <span className="font-bold">Planned Design Commitments:</span> UK hosting, encryption, role-based access controls, and logged identity access are core planned design commitments. ConductLens does not claim achieved certification, regulator approval, Acas endorsement, or a granted patent.
         </div>
 
       </div>

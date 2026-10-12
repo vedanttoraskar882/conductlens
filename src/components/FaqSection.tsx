@@ -60,11 +60,11 @@ export const FaqSection: React.FC = () => {
   };
 
   return (
-    <section id="faq" className="py-20 lg:py-28 bg-white border-t border-navy-100">
+    <section id="faq" className="py-12 lg:py-16 bg-white border-t border-navy-100">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <div className="max-w-3xl mb-14">
+        <div className="max-w-3xl mb-8">
           <div className="inline-flex items-center space-x-2 text-teal-700 text-xs font-bold tracking-wider uppercase mb-2">
             <span className="w-1.5 h-1.5 rounded-full bg-teal-500" />
             <span>Frequently Asked Questions</span>
@@ -72,7 +72,7 @@ export const FaqSection: React.FC = () => {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-navy-950 tracking-tight">
             Clear answers to common questions about ConductLens.
           </h2>
-          <p className="mt-3 text-base text-navy-600">
+          <p className="mt-2 text-base text-navy-600">
             Learn more about the planned architecture, privacy protections, pilot programme, and commercial terms.
           </p>
         </div>

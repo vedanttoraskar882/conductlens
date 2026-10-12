@@ -22,10 +22,10 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onOpenPilotModal }) =>
   };
 
   return (
-    <section id="home" className="relative pt-10 pb-20 lg:pt-16 lg:pb-32 overflow-hidden">
+    <section id="home" className="relative pt-6 pb-12 lg:pt-10 lg:pb-16 overflow-hidden">
       {/* Subtle background decorative shapes and ambient glow */}
       <div className="absolute inset-0 pointer-events-none -z-10 overflow-hidden">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[520px] bg-gradient-to-b from-teal-50/70 via-mint-50/40 to-transparent opacity-90" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[400px] bg-gradient-to-b from-teal-50/70 via-mint-50/40 to-transparent opacity-90" />
         <div className="absolute top-20 right-10 w-96 h-96 rounded-full bg-teal-100/30 blur-3xl animate-pulse-glow" />
         <div className="absolute top-36 left-10 w-96 h-96 rounded-full bg-navy-100/40 blur-3xl" />
       </div>
@@ -34,8 +34,8 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onOpenPilotModal }) =>
         
         {/* Top Status Badge */}
         <div className="flex flex-col items-center text-center">
-          <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-teal-50/90 border border-teal-200 text-teal-800 text-xs sm:text-sm font-semibold shadow-2xs mb-6 transition-all hover:bg-teal-100/80">
-            <span className="w-2.5 h-2.5 rounded-full bg-teal-500 animate-pulse" />
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-teal-50/90 border border-teal-200 text-teal-800 text-xs sm:text-sm font-semibold shadow-2xs mb-4 transition-all hover:bg-teal-100/80">
+            <span className="w-2 rounded-full h-2 bg-teal-500 animate-pulse" />
             <span className="tracking-wide">In development · Pilot enquiries</span>
           </div>
 
@@ -45,22 +45,22 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onOpenPilotModal }) =>
           </h1>
 
           {/* Supporting Paragraph */}
-          <p className="mt-6 text-base sm:text-lg lg:text-xl text-navy-600 max-w-3xl leading-relaxed font-normal">
+          <p className="mt-4 text-base sm:text-lg lg:text-xl text-navy-600 max-w-3xl leading-relaxed font-normal">
             ConductLens is being developed to help HR teams connect existing HR signals, identify sustained team-level patterns and decide when a proportionate, documented review is needed.
           </p>
 
           {/* Target Audience Line */}
-          <div className="mt-5">
-            <span className="text-xs sm:text-sm font-bold tracking-wider uppercase text-teal-800 bg-teal-50 px-4 py-2 rounded-lg border border-teal-200/80 inline-block shadow-2xs">
+          <div className="mt-4">
+            <span className="text-xs sm:text-sm font-bold tracking-wider uppercase text-teal-800 bg-teal-50 px-3.5 py-1.5 rounded-lg border border-teal-200/80 inline-block shadow-2xs">
               Designed for UK organisations with 100–2,000 employees.
             </span>
           </div>
 
           {/* CTAs with generous padding and clear hierarchy */}
-          <div className="mt-9 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-lg">
+          <div className="mt-7 sm:mt-8 flex flex-col sm:flex-row items-center justify-center gap-3.5 w-full max-w-lg">
             <button
               onClick={(e) => onOpenPilotModal(e.currentTarget)}
-              className="w-full sm:w-auto px-8 py-4 rounded-xl bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white font-bold text-base sm:text-lg shadow-md hover:shadow-xl transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 flex items-center justify-center space-x-2.5 group whitespace-nowrap"
+              className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white font-bold text-base shadow-md hover:shadow-xl transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500 flex items-center justify-center space-x-2.5 group whitespace-nowrap"
             >
               <span>Request a Pilot</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -69,31 +69,31 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onOpenPilotModal }) =>
             <a
               href="#platform"
               onClick={handleScrollToPlatform}
-              className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white hover:bg-navy-50 text-navy-900 font-bold text-base sm:text-lg border border-navy-200 shadow-2xs hover:shadow transition-all focus:outline-none focus:ring-2 focus:ring-teal-500 flex items-center justify-center whitespace-nowrap"
+              className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-white hover:bg-navy-50 text-navy-900 font-bold text-base border border-navy-200 shadow-2xs hover:shadow transition-all focus:outline-none focus:ring-2 focus:ring-teal-500 flex items-center justify-center whitespace-nowrap"
             >
               Explore the Platform
             </a>
           </div>
 
           {/* Three Supporting Labels */}
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 w-full max-w-3xl pt-8 border-t border-navy-100">
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-6 w-full max-w-3xl pt-5 border-t border-navy-100">
             <div className="flex items-center justify-center sm:justify-start space-x-3 text-navy-800 text-sm font-semibold">
-              <div className="w-9 h-9 rounded-xl bg-teal-50 border border-teal-200 flex items-center justify-center text-teal-600 flex-shrink-0 shadow-2xs">
-                <Layers className="w-4.5 h-4.5" />
+              <div className="w-8 h-8 rounded-xl bg-teal-50 border border-teal-200 flex items-center justify-center text-teal-600 flex-shrink-0 shadow-2xs">
+                <Layers className="w-4 h-4" />
               </div>
               <span>Team-level signals</span>
             </div>
 
             <div className="flex items-center justify-center sm:justify-start space-x-3 text-navy-800 text-sm font-semibold">
-              <div className="w-9 h-9 rounded-xl bg-teal-50 border border-teal-200 flex items-center justify-center text-teal-600 flex-shrink-0 shadow-2xs">
-                <Lock className="w-4.5 h-4.5" />
+              <div className="w-8 h-8 rounded-xl bg-teal-50 border border-teal-200 flex items-center justify-center text-teal-600 flex-shrink-0 shadow-2xs">
+                <Lock className="w-4 h-4" />
               </div>
               <span>Identities protected until authorisation</span>
             </div>
 
             <div className="flex items-center justify-center sm:justify-start space-x-3 text-navy-800 text-sm font-semibold">
-              <div className="w-9 h-9 rounded-xl bg-teal-50 border border-teal-200 flex items-center justify-center text-teal-600 flex-shrink-0 shadow-2xs">
-                <UserCheck className="w-4.5 h-4.5" />
+              <div className="w-8 h-8 rounded-xl bg-teal-50 border border-teal-200 flex items-center justify-center text-teal-600 flex-shrink-0 shadow-2xs">
+                <UserCheck className="w-4 h-4" />
               </div>
               <span>Human-led decisions</span>
             </div>
@@ -101,7 +101,7 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onOpenPilotModal }) =>
         </div>
 
         {/* Illustrative Dashboard Graphic */}
-        <div className="mt-16 max-w-4xl mx-auto">
+        <div className="mt-10 max-w-4xl mx-auto">
           <div className="relative rounded-3xl bg-white border border-navy-200/90 shadow-subtle p-6 sm:p-8 overflow-hidden">
             
             {/* Top mandatory synthetic preview watermark / badge */}

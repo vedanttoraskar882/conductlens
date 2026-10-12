@@ -13,15 +13,15 @@ import {
 
 export const AboutSection: React.FC = () => {
   return (
-    <section id="about" className="py-20 lg:py-28 bg-white border-y border-navy-100 relative overflow-hidden">
+    <section id="about" className="py-12 lg:py-16 bg-white border-y border-navy-100 relative overflow-hidden">
       {/* Background subtle mesh decoration */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-b from-teal-50/40 to-transparent pointer-events-none -z-10" />
 
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-16">
-          <div className="inline-flex items-center space-x-2 text-teal-700 text-xs font-bold tracking-wider uppercase mb-2.5">
+        <div className="max-w-3xl mb-8">
+          <div className="inline-flex items-center space-x-2 text-teal-700 text-xs font-bold tracking-wider uppercase mb-2">
             <span className="w-2 h-2 rounded-full bg-teal-500 animate-pulse" />
             <span>About ConductLens</span>
           </div>
@@ -31,7 +31,7 @@ export const AboutSection: React.FC = () => {
         </div>
 
         {/* The Problem & Proposed Solution Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-10">
           
           {/* The Problem */}
           <div className="bg-surface-warm rounded-3xl p-8 lg:p-10 border border-navy-200/80 shadow-card hover:shadow-card-hover transition-all flex flex-col justify-between">

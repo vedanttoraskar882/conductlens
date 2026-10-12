@@ -67,11 +67,11 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenPilotModal
   ];
 
   return (
-    <section id="market-pricing" className="py-20 lg:py-28 bg-surface-warm">
+    <section id="market-pricing" className="py-12 lg:py-16 bg-surface-warm">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mb-8">
           <div className="inline-flex items-center space-x-2 text-teal-700 text-xs font-bold tracking-wider uppercase mb-2">
             <span className="w-1.5 h-1.5 rounded-full bg-teal-500" />
             <span>Market & Pricing</span>
@@ -79,13 +79,13 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenPilotModal
           <h2 className="text-3xl sm:text-4xl font-extrabold text-navy-950 tracking-tight">
             Transparent, headcount-based annual pricing.
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-navy-600 leading-relaxed">
+          <p className="mt-3 text-base sm:text-lg text-navy-600 leading-relaxed">
             All rates exclude VAT. Annual subscriptions are calculated per covered employee per year, applied across the entire covered headcount.
           </p>
         </div>
 
         {/* Target Audience & Priority Sectors */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-10">
           
           <div className="lg:col-span-7 bg-white rounded-2xl p-7 border border-navy-200/80 shadow-card">
             <h3 className="text-sm font-bold uppercase tracking-wider text-teal-700 mb-2">
@@ -128,7 +128,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenPilotModal
         </div>
 
         {/* Pricing Cards by Organisation Size Bands */}
-        <div className="mb-16">
+        <div className="mb-10">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-2">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-navy-500">
@@ -324,7 +324,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenPilotModal
         </div>
 
         {/* Additional Commercial Options */}
-        <div className="mb-16 bg-white rounded-2xl p-7 lg:p-9 border border-navy-200 shadow-card">
+        <div className="mb-10 bg-white rounded-2xl p-7 lg:p-9 border border-navy-200 shadow-card">
           <h3 className="text-xs font-bold uppercase tracking-wider text-teal-700 mb-2">
             Additional Commercial Options
           </h3>
@@ -401,7 +401,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenPilotModal
         </div>
 
         {/* Commercial Terms & Planning Assumptions */}
-        <div className="mb-16 bg-navy-900 text-white rounded-2xl p-7 lg:p-9 border border-navy-800">
+        <div className="mb-10 bg-navy-900 text-white rounded-2xl p-7 lg:p-9 border border-navy-800">
           <h3 className="text-xs font-bold uppercase tracking-wider text-teal-400 mb-2">
             Commercial Terms & Contract Framework
           </h3>
@@ -433,7 +433,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenPilotModal
         </div>
 
         {/* Illustrative Annual Examples Table */}
-        <div className="mb-16 bg-white rounded-2xl p-7 lg:p-9 border border-navy-200 shadow-card">
+        <div className="mb-10 bg-white rounded-2xl p-7 lg:p-9 border border-navy-200 shadow-card">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-navy-100 gap-2 mb-6">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-teal-700">

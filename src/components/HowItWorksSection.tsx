@@ -81,11 +81,11 @@ export const HowItWorksSection: React.FC = () => {
   ];
 
   return (
-    <section id="how-it-works" className="py-20 lg:py-28 bg-white border-y border-navy-100">
+    <section id="how-it-works" className="py-12 lg:py-16 bg-white border-y border-navy-100">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mb-8">
           <div className="inline-flex items-center space-x-2 text-teal-700 text-xs font-bold tracking-wider uppercase mb-2">
             <span className="w-1.5 h-1.5 rounded-full bg-teal-500" />
             <span>Process & Methodology</span>
@@ -93,13 +93,13 @@ export const HowItWorksSection: React.FC = () => {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-navy-950 tracking-tight">
             How ConductLens works: from silent signals to proportionate review.
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-navy-600 leading-relaxed">
+          <p className="mt-3 text-base sm:text-lg text-navy-600 leading-relaxed">
             A 9-step governance process designed to maintain confidentiality, eliminate false single-event alarms, and preserve human judgment.
           </p>
         </div>
 
         {/* Central Core Principle Alert Banner */}
-        <div className="mb-14 p-5 sm:p-6 rounded-2xl bg-teal-50/70 border border-teal-200 shadow-2xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="mb-8 p-4 sm:p-5 rounded-2xl bg-teal-50/70 border border-teal-200 shadow-2xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div className="flex items-start sm:items-center space-x-3.5">
             <div className="w-10 h-10 rounded-xl bg-teal-600 text-white flex items-center justify-center flex-shrink-0 shadow-sm">
               <ShieldAlert className="w-5 h-5" />
@@ -119,7 +119,7 @@ export const HowItWorksSection: React.FC = () => {
         </div>
 
         {/* Visual Workflow Diagram: From Signal Collection to Human Review */}
-        <div className="mb-20 bg-surface-warm rounded-2xl p-6 sm:p-8 border border-navy-200">
+        <div className="mb-10 bg-surface-warm rounded-2xl p-6 sm:p-7 border border-navy-200">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-navy-100 gap-2 mb-6">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-teal-700">

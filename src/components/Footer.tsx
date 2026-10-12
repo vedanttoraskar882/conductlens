@@ -21,10 +21,10 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-navy-950 text-white pt-16 pb-12 border-t border-navy-800">
+    <footer className="bg-navy-950 text-white pt-10 pb-8 border-t border-navy-800">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-10 pb-12 border-b border-navy-800/80">
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8 pb-8 border-b border-navy-800/80">
           
           {/* Brand Info */}
           <div className="max-w-md space-y-4">
@@ -74,7 +74,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-navy-500 gap-4">
+        <div className="pt-5 flex flex-col sm:flex-row items-center justify-between text-xs text-navy-500 gap-4">
           <div>
             © {currentYear} ConductLens. All rights reserved.
           </div>
